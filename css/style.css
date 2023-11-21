@@ -1,0 +1,138 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  overflow-x: hidden;
+  font-family: Cabin, 游ゴシック体, YuGothic, Yu Gothic, 游ゴシック,
+    Yu Gothic Medium, sans-serif;
+  font-size: 1.6rem;
+}
+@font-face {
+  font-family: "Yu Gothic Medium";
+  src: url("../font/Yu\ Gothic\ Medium.otf");
+}
+ul {
+  margin-bottom: 0;
+}
+ul li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+.Navcontainer {
+  max-width: 1266px;
+  margin: 0 auto;
+  height: 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.Navcontainer .main {
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+}
+p {
+  margin: 0;
+  padding: 0;
+}
+.boxshadow {
+  -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.08);
+}
+.main-main {
+  display: flex;
+  justify-content: space-between;
+}
+.Navcontainer .main-around li {
+  color: #64686a;
+  font-size: 14px;
+  font-family: 500;
+  margin-top: 15px;
+}
+.main-around {
+  display: flex;
+  justify-content: space-around;
+}
+nav p {
+  color: #7e7e7e;
+  display: block;
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  line-height: 1.4545454545;
+}
+nav .logo {
+  width: 267px;
+}
+nav .text-call {
+  color: #dd6779;
+}
+nav .logo img {
+  width: 100%;
+}
+
+nav .call {
+  color: #64686a;
+  display: block;
+  font-size: 19px;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  line-height: 1.4;
+  padding-left: 8px;
+  position: relative;
+
+  text-decoration: none;
+  font-family: "Shippori Mincho", serif;
+}
+nav .main-f {
+  display: flex;
+  align-items: center;
+}
+
+.button-p {
+  min-width: 210px;
+  font-size: 1.5rem;
+  line-height: 1.4666666667;
+  min-height: 44px;
+  padding: 10px;
+  background-color: #f28599;
+  border-radius: 34px;
+  font-weight: 600;
+  border: none;
+  color: #fff !important;
+  letter-spacing: 0.02em;
+  text-align: center;
+  -webkit-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+  font-family: "Shippori Mincho", serif;
+}
+.button-p p {
+  color: #fff;
+  position: relative;
+  font-weight: 600;
+  font-family: "Shippori Mincho", serif;
+  font-size: 13px;
+}
+
+.button-p p::after {
+  background: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='15.619' height='15.619'%3E%3Cpath fill='%23fff' fill-rule='evenodd' d='m14.817 7.008-.007 1.607q-.09 0-.179-.002a4.122 4.122 0 0 0-4 4.035l-1.644.006a5.576 5.576 0 0 1 1.754-4.024l-9.898.022L.85 6.96l9.823-.022A5.5 5.5 0 0 1 9.03 2.995l1.644-.004a4.057 4.057 0 0 0 3.962 4.017q.09-.003.178-.003Z'/%3E%3C/svg%3E")
+    no-repeat 50%;
+  background-size: 16px 16px;
+  content: "";
+  position: absolute;
+  display: block;
+  height: 16px;
+  width: 16px;
+  top: 50%;
+  right: 18px;
+  transform: translatey(-50%);
+}
+
+.LineIcon {
+  width: 40px;
+  height: auto;
+}
