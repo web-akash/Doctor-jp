@@ -22,7 +22,7 @@ $(function () {
       {
         breakpoint: 576,
         settings: {
-          slidesToShow: 2,
+          slidesToShow: 1,
           slidesToScroll: 1,
           infinite: true,
         },
@@ -45,6 +45,7 @@ $(function () {
       },
     ],
   });
+
   $(window).scroll(function () {
     var scrolling = $(this).scrollTop();
 
@@ -53,13 +54,15 @@ $(function () {
     } else {
       $(".extra-button").fadeOut(200);
     }
-    $(".extra-btn-top").click(function () {
-      $("html,body").animate({
-        scrollTop: 0,
-      });
+  });
+
+  $(".extra-btn-top").click(function () {
+    $("html,body").animate({
+      scrollTop: 0,
     });
-    // if (scrolling > 1500) {
-    //   $(".extra-button").fadeOut(1);
-    // }
   });
 });
+
+// else if (scrolling > 1500) {
+//   $(".extra-button").fadeOut(200);
+// }

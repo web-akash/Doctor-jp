@@ -1,0 +1,172 @@
+@media (max-width: 575.99px) {
+  body {
+    overflow-x: hidden;
+  }
+  .b-01,
+  .b-02 {
+    background-size: cover;
+    background-position: left;
+  }
+  .hero_btn a {
+    font-size: 18px;
+  }
+  .text_big {
+    font-size: 40px;
+  }
+  .text h3 {
+    font-size: 30px;
+  }
+  .text h4 {
+    font-size: 20px;
+  }
+  .hero_text {
+    text-align: center;
+  }
+  .hero_btn {
+    margin-bottom: 20px;
+    justify-content: center !important;
+  }
+  .text h5 {
+    font-size: 16px;
+    line-height: 25px;
+  }
+  .alori_main span {
+    font-size: 22px;
+  }
+  .alori_main p {
+    font-size: 15px;
+  }
+  .button_single a {
+    font-size: 11px;
+  }
+  .alori_main {
+    text-align: left;
+  }
+  .notice_right {
+    padding: 10px 0;
+    display: block;
+  }
+  .notice_item a {
+    padding: 3px 15px;
+  }
+  .treatment_header h2 {
+    font-size: 35px;
+  }
+  .treatment_header span {
+    font-size: 22px;
+  }
+  .treatMentOne h3 {
+    font-size: 25px;
+  }
+  .treatMent_two h3 {
+    font-size: 25px;
+  }
+  .treatMentOne p {
+    font-size: 15px;
+    text-align: left;
+  }
+  .treatMent_two p {
+    font-size: 15px;
+    text-align: left;
+  }
+  .treet_1btn a {
+    padding: 10px 5px;
+    font-size: 10px;
+    margin-right: 0;
+    display: inline-block;
+  }
+  .treatMentOne {
+    padding: 30px 20px 30px 20px;
+  }
+  .treatMent_two {
+    padding: 30px 20px 30px 20px;
+  }
+  .treatment_carBottom {
+    margin: 25px 0;
+  }
+  .treatment_carBottom_one {
+    margin-bottom: 25px;
+  }
+  .treatbottoms_button a {
+    padding: 10px 11px;
+    font-size: 10px;
+    margin-right: 0px !important;
+    display: inline-block;
+  }
+  .reservation a {
+    padding: 15px 70px;
+    font-size: 18px;
+  }
+  .reservation p {
+    font-size: 16px;
+    text-align: left;
+  }
+  .reservation span {
+    font-size: 20px;
+  }
+  .reservation h2 {
+    font-size: 35px;
+  }
+  .reservation span {
+    font-size: 16px;
+  }
+  .reservation .colorssp {
+    text-align: center;
+    font-size: 11px;
+  }
+  .consultaion_header h2 {
+    font-size: 35px;
+  }
+  .consulataion_table {
+    padding: 40px 20px;
+  }
+  .consulataion_table th {
+    padding: 20px 0;
+    font-size: 14px;
+  }
+  .consultaion_header span {
+    font-size: 12px;
+  }
+  .open {
+    height: 6px;
+    width: 6px;
+  }
+  .extra-info {
+    font-size: 12px;
+  }
+  .table_color {
+    text-align: left;
+    padding: 30px 20px;
+  }
+  .table_color p {
+    font-size: 12px;
+  }
+  .table_color p span {
+    font-size: 12px;
+  }
+  .beatuty_row {
+    margin: 0px 0px;
+  }
+  .beatuty_main {
+    padding: 30px 20px 50px 20px;
+  }
+  .physcho_item img {
+    width: 250px;
+    margin-bottom: 30px;
+  }
+  .product_content {
+    padding: 0;
+  }
+  .product_content a {
+    display: inline-block;
+    text-align: center;
+    font-size: 16px;
+    padding: 15px 40px;
+  }
+  .extra-button a {
+    height: 80px;
+    width: 80px;
+    line-height: 80px;
+    font-size: 30px;
+  }
+}

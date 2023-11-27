@@ -596,7 +596,7 @@ nav .main-f {
 /* consultaion part start */
 #Consultation_part {
   background: #fafafa;
-  padding: 60px 0 80px 0;
+  padding: 60px 0 40px 0;
 }
 .consultaion_header {
   text-align: center;
@@ -618,7 +618,6 @@ nav .main-f {
 .table_color {
   background: #fff5f6;
   padding: 35px 75px 35px 35px;
-  text-align: left;
 }
 
 .table_color p {
@@ -880,6 +879,10 @@ nav .main-f {
   line-height: 50px;
   font-size: 16px;
   color: #64686a;
+}
+
+.ex-cont{
+  position: relative;
 }
 
 .extra-button{
