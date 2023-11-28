@@ -7,6 +7,13 @@
 // Tushar v1.0.0
 
 $(function () {
+  $(".show").on("click", function () {
+    $(".sidebar").css("right", "0px");
+  });
+  $(".close").on("click", function () {
+    $(".sidebar").css("right", "-100%");
+  });
+
   $(".banner-main").slick({
     autoplay: true,
     infinite: true,
@@ -30,7 +37,7 @@ $(function () {
       {
         breakpoint: 768,
         settings: {
-          slidesToShow: 3,
+          slidesToShow: 1,
           slidesToScroll: 1,
           infinite: true,
         },
@@ -38,7 +45,7 @@ $(function () {
       {
         breakpoint: 992,
         settings: {
-          slidesToShow: 4,
+          slidesToShow: 1,
           slidesToScroll: 1,
           infinite: true,
         },
