@@ -67,7 +67,7 @@ h5 {
   display: flex;
   justify-content: space-between;
 }
-.Navcontainer .main-around li {
+.Navcontainer .main-around a {
   color: #64686a;
   font-size: 14px;
   font-family: 500;
@@ -160,7 +160,7 @@ nav .main-f {
 
 /* Hero part start */
 
-.banner-main{
+.banner-main {
   position: relative;
 }
 
@@ -941,12 +941,12 @@ nav .main-f {
   font-size: 20px;
 }
 
-.navbar-nav{
+.navbar-nav {
   width: 100%;
   padding: 0 20px;
 }
 
-.show{
+.show {
   color: #64686a;
 }
 
@@ -962,16 +962,16 @@ nav .main-f {
   color: #4978bc;
 }
 
-.navbar{
+.navbar {
   display: none;
 }
 
-.sidebar .text-call{
+.sidebar .text-call {
   color: #dd647a;
   font-size: 16px;
 }
 
-.number{
+.number {
   color: #64686a;
   padding: 10px 0;
   display: inline-block;
