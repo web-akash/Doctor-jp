@@ -74,7 +74,7 @@ h5 {
   display: flex;
   justify-content: space-between;
 }
-.Navcontainer .main-around li {
+.Navcontainer .main-around a {
   color: #64686a;
   font-size: 14px;
   font-family: 500;
