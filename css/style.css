@@ -31,7 +31,8 @@ a {
 
 /* navbar part css */
 .Navcontainer {
-  max-width: 1266px;
+ 
+  max-width: 1250px;
   margin: 0 auto;
   height: 120px;
   display: flex;
@@ -43,11 +44,17 @@ a {
   align-items: center;
   column-gap: 10px;
 }
+
 p {
   margin: 0;
   padding: 0;
   font-family: "Cabin", sans-serif;
 }
+.Navcontainer li a {
+  color: var(--primary-color);
+}
+h1,
+h2,
 h3,
 h4,
 h5 {
@@ -160,7 +167,7 @@ nav .main-f {
 
 /* Hero part start */
 
-.banner-main{
+.banner-main {
   position: relative;
 }
 
@@ -941,12 +948,12 @@ nav .main-f {
   font-size: 20px;
 }
 
-.navbar-nav{
+.navbar-nav {
   width: 100%;
   padding: 0 20px;
 }
 
-.show{
+.show {
   color: #64686a;
 }
 
@@ -962,19 +969,56 @@ nav .main-f {
   color: #4978bc;
 }
 
-.navbar{
+.navbar {
   display: none;
 }
 
-.sidebar .text-call{
+.sidebar .text-call {
   color: #dd647a;
   font-size: 16px;
 }
 
-.number{
+.number {
   color: #64686a;
   padding: 10px 0;
   display: inline-block;
 }
 
 /* Sidebar area end */
+
+
+/* ========================== doctors itro page start ============================================== */
+/* hero start */
+#doctorsIntroHeroSection{
+  padding: 120px 0;
+  background-color: var(--tartiary-color);
+  
+}
+.doctor-intro-header{
+  color: var(--secondary-color);
+}
+.doctors-intro-hero-section-white-bg{
+  background-color: #fff !important ;
+  margin-top: 20px;
+  padding: 20px;
+}
+.doctors-intro-hero-section-white-bg{
+  font-size: 13px !important;
+  font-weight: 300 !important;
+}
+/* hero end */
+
+/* image and text section start  */
+#image-and-text-section{
+  padding: 120px 0;
+background-color: #ffff;
+}
+.text-color{
+  color: var(--secondary-color);
+}
+/* image and text section end */
+
+/* ========================== doctors itro page end ============================================== */
+
+
+
