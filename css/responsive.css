@@ -829,4 +829,92 @@ margin-right: 15px;
     font-size: 10px;
     margin-top: 3px;
   }
+
+
+/* doctorintero section responsive  part start */
+
+/* image and text section responsive part start */
+
+.image_img img{
+  margin-top: 30px;
 }
+
+
+.about_img_2 img {
+	width: 100%;
+}
+
+
+.image_sm {
+  transform: translateX(0);
+  -webkit-transform: translateX(0);
+  -moz-transform: translateX(0);
+  -ms-transform: translateX(0);
+  -o-transform: translateX(0);
+}
+
+
+/* image and text section responsive part end */
+
+
+
+
+
+
+/* gallery part section responsive part start */
+
+.gal_img img{
+  width: 100%;
+  height: auto;
+}
+
+
+/* gallery part section responsive part end */
+/* doctorintero section responsive  part end */
+
+
+
+
+
+
+/* treatment page responsive start */
+.gany_text_1 .d-flex {
+	flex-wrap: wrap;
+}
+.capanor_jonno{
+  padding-left: 30px;
+  padding-right: 30px;
+  /* margint: 20px; */
+}
+.gany_text_1 {
+	margin-top: 25px;
+}
+/* treatment page responsive end */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
