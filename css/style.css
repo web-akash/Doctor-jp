@@ -353,6 +353,7 @@ nav .main-f {
   font-family: "Cabin", sans-serif;
   font-weight: 400;
   padding-bottom: 10px;
+  color:var(--secondary-color)
 }
 
 /* notice part end */
@@ -1042,6 +1043,7 @@ nav .main-f {
   bottom: 10%;
   right: 5%;
   display: none;
+  z-index: 1
 }
 
 .extra-button a {
@@ -1160,20 +1162,22 @@ nav .main-f {
   color: var(--secondary-color);
 }
 
-.image-text h2{
+.image-text h2 {
   color: var(--secondary-color);
   font-size: 1.8rem;
   margin-top: 75px;
 
 }
-.image-text h3{
-  color:var(--primary-color);
+
+.image-text h3 {
+  color: var(--primary-color);
 }
-.image-text h3 span{
+
+.image-text h3 span {
   color: var(--secondary-color);
 }
 
-.image-text p{
+.image-text p {
   font-size: 1rem;
   font-weight: 500;
   letter-spacing: .04em;
@@ -1184,89 +1188,99 @@ nav .main-f {
 
 }
 
-.image_img img{
+.image_img img {
   width: 85%;
   float: right;
 }
+
 .overlay img {
-	position: absolute;
-	width: 35.5%;
-	height: 41%;
-	left: 53px;
-	bottom: -30px;
+  position: absolute;
+  width: 35.5%;
+  height: 41%;
+  left: 53px;
+  bottom: -30px;
 }
 
-.about_img img{
+.about_img img {
   width: 96%;
   margin-top: 75px;
 }
 
-.about_text_2 h4{
-	font-size: 1.6rem;
-	line-height: 1.6818181818;
-  color:var(--secondary-color);
+.about_text_2 h4 {
+  font-size: 1.6rem;
+  line-height: 1.6818181818;
+  color: var(--secondary-color);
   margin-top: 50px;
 }
-.about_text_2 h4 span{
-  color:var(--primary-color)
+
+.about_text_2 h4 span {
+  color: var(--primary-color)
 }
-.about_text_2 h3{
-	font-size: 1.6rem;
-	line-height: 1.6818181818;
-  color:var(--secondary-color);
+
+.about_text_2 h3 {
+  font-size: 1.6rem;
+  line-height: 1.6818181818;
+  color: var(--secondary-color);
 }
-.about_text_2 p{
+
+.about_text_2 p {
   color: var(--secondary-color);
   margin-top: 25px;
   font-family: "Yu Gothic Medium";
   font-size: 1rem;
 
 }
+
 .about_img_2 img {
-	width: 90%;
-	margin-top: 75px;
-	float: right;
+  width: 90%;
+  margin-top: 75px;
+  float: right;
 }
 
 
 
 
-.image_img_4 img{
+.image_img_4 img {
   width: 100%;
   margin-top: 60px;
 }
+
 .image_sm {
-  width: 500px ;
+  width: 500px;
   height: auto;
   margin-top: 30px;
-  transform:translateX(-50%) ;
-  -webkit-transform:translateX(-50%) ;
-  -moz-transform:translateX(-50%) ;
-  -ms-transform:translateX(-50%) ;
-  -o-transform:translateX(-50%) ;
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
 }
 
-.about_text_4 h4{
-   color: var(--primary-color);
-    font-size: 1.6rem;
-    font-weight: 500;
-    letter-spacing: .04em;
-    line-height: 1.7222222222;
-    margin-top: 75px;
+.about_text_4 h4 {
+  color: var(--primary-color);
+  font-size: 1.6rem;
+  font-weight: 500;
+  letter-spacing: .04em;
+  line-height: 1.7222222222;
+  margin-top: 75px;
 }
-.about_text_4 h5{
+
+.about_text_4 h5 {
   color: var(--secondary-color);
   margin-bottom: 30px;
 }
-.about_text_4 p{
-  color:var(--secondary-color);
+
+.about_text_4 p {
+  color: var(--secondary-color);
   font-size: 1rem;
   font-family: "Yu Gothic Medium";
   margin-top: 8px;
 }
-.about_text_4 p span{
+
+.about_text_4 p span {
   font-weight: 700;
 }
+
 /* image and text section end */
 
 
@@ -1279,100 +1293,110 @@ nav .main-f {
 
 
 /* Origin of Arrolie Clinic section start */
-#Arrolie_Clinic{
+#Arrolie_Clinic {
   background: #fff5f6;
   padding: 120px 0;
   overflow: hidden;
 }
-.bg_img{
+
+.bg_img {
   position: relative;
 }
 
 .bg_img img {
-	position: absolute;
-	left: -22px;
-	top: -160px;
+  position: absolute;
+  left: -22px;
+  top: -160px;
 }
 
-.bg_img_1{
+.bg_img_1 {
   position: relative;
 }
+
 .bg_img_1 img {
-	position: absolute;
-	right: 25px;
-	bottom: -115px;
+  position: absolute;
+  right: 25px;
+  bottom: -115px;
 }
 
-.arrolie_clinic_main{
+.arrolie_clinic_main {
   padding: 45px;
   background: #fff;
   text-align: center;
   margin-top: 30px;
   z-index: 1;
 }
-.arrolie_clinic_head h4{
-  color:var(--secondary-color);
+
+.arrolie_clinic_head h4 {
+  color: var(--secondary-color);
   margin-bottom: 40px;
 }
-.clinic_img img{
+
+.clinic_img img {
   width: 100%;
 }
 
-.arrolie_clinic_para p{
-	font-size: 1rem;
-	line-height: 1.6875;
+.arrolie_clinic_para p {
+  font-size: 1rem;
+  line-height: 1.6875;
   font-family: "Yu Gothic Medium";
   color: var(--secondary-color);
   margin-top: 40px;
   text-align: left;
 }
 
-.arrolie_clinic_para h4{
+.arrolie_clinic_para h4 {
   color: var(--secondary-color);
   text-align: left;
   margin-top: 20px;
 }
-.arrolie_clinic_para h5{
+
+.arrolie_clinic_para h5 {
   color: var(--secondary-color);
   text-align: left;
   font-size: 1rem;
 }
 
-.arrolie_clinic_para h6{
+.arrolie_clinic_para h6 {
   color: var(--secondary-color);
   text-align: left;
   margin-top: 30px;
 }
+
 /* Origin of Arrolie Clinic section end */
 
 
 /* gallery Part section start*/
 
-#gallery_part{
+#gallery_part {
   padding: 120px 0;
   text-align: center;
 }
 
-.gal_img img{
+.gal_img img {
   width: 18%;
-  height: auto;;
+  height: auto;
+  ;
 }
-.gal_img{
+
+.gal_img {
   flex-wrap: wrap;
   gap: 15px;
   justify-content: center;
 }
 
-.gallery_img{
+.gallery_img {
   margin-top: 25px;
 }
-.gallery_img h2{
+
+.gallery_img h2 {
   color: var(--secondary-color);
-    font-size: 4.4rem;
-    line-height: 1.4772727273;
-    text-align: center;
-    margin-bottom: 30px;
+  font-size: 4.4rem;
+  line-height: 1.4772727273;
+  text-align: center;
+  margin-bottom: 30px;
 }
+
 /* gallery Part section end*/
 
 
@@ -1396,7 +1420,7 @@ nav .main-f {
 
 /*  medical treatment part start */
 
-#toot_part{
+#toot_part {
   background: #fff5f6;
   padding: 120px 0 210px;
 }
@@ -1406,191 +1430,526 @@ nav .main-f {
   padding-top: 50px;
 }
 
-.toot_header span{
+.toot_header span {
   font-family: "Cormorant Infant", serif;
   font-size: 24px;
   color: #939a9a;
   padding-top: 40px;
 }
+
 .toot_header h2 {
-font-size: 44px;
-color: var(--secondary-color);
-font-weight: 500;
-font-family: "Shippori Mincho B1", serif;
-margin-bottom: 50px;
+  font-size: 44px;
+  color: var(--secondary-color);
+  font-weight: 500;
+  font-family: "Shippori Mincho B1", serif;
+  margin-bottom: 50px;
 }
-.toot_box{
+
+.toot_box {
   background: var(--tarnary-color);
   padding: 10px 20px;
-  margin-top: 30px;
+  margin-top: 20px;
   position: relative;
 }
-.toot_box a img{
-    display: block;
-    height: 20px;
-    position: absolute;
-    right: 10px;
-    top: 50%;
-    -webkit-transform: translateY(-50%) rotate(90deg);
-    transform: translateY(-50%) rotate(90deg);
-    width: 20px;
+
+.toot_box a img {
+  display: block;
+  height: 20px;
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  -webkit-transform: translateY(-50%) rotate(90deg);
+  transform: translateY(-50%) rotate(90deg);
+  width: 20px;
+  -moz-transform: translateY(-50%) rotate(90deg);
+  -ms-transform: translateY(-50%) rotate(90deg);
+  -o-transform: translateY(-50%) rotate(90deg);
 }
+
 .toot-pic {
-	width: 60px;
+  width: 60px;
 }
+
 .toot_box h4 {
-	font-size: 1rem;
-	letter-spacing: .04em;
-	line-height: 1.375;
-	color: var(--secondary-color);
+  font-size: 1rem;
+  letter-spacing: .04em;
+  line-height: 1.375;
+  color: var(--secondary-color);
 }
-.toot_box .d-flex{
+
+.toot_box .d-flex {
   justify-content: space-between;
   align-items: center;
 }
 
 
 
-.gany_part{
+.gany_part {
   margin-top: 70px;
   text-align: center;
+  align-items: center;
   padding: 80px;
-  background:#fff;
+  background: #fff;
 }
-.gany_part h2{
-    font-size: 3.2rem;
-    letter-spacing: .04em;
-    line-height: 1.5;
-    color: var(--secondary-color);
+
+.gany_part h2 {
+  font-size: 3.2rem;
+  letter-spacing: .04em;
+  line-height: 1.5;
+  color: var(--secondary-color);
 }
 
 .gany_part h5 {
-	font-size: 1.1rem;
-	padding: 5px 26px 4px;
-	color: var(--secondary-color);
-	border: 1px solid var(--border1-color);
-	width: 427px;
-	margin: 0 auto;
+  font-size: 1.1rem;
+  padding: 5px 26px 4px;
+  color: var(--secondary-color);
+  border: 1px solid var(--border1-color);
+  width: 427px;
+  margin: 0 auto;
 }
 
 
-.gany_text_1{
+.gany_text_1 {
   padding: 70px 60px 40px;
   background: #fafafa;
-  border: 1px solid  var(--border2-color);
+  border: 1px solid var(--border2-color);
 }
-.gany_text_2{
+
+.gany_text_2 {
   padding: 70px 60px 40px;
   background: #fff;
   border: 1px solid var(--border2-color);
 }
-.gany_text_1 h2{
+
+.gany_text_1 h2 {
   font-size: 1.7rem;
-  color:var(--secondary-color);
+  color: var(--secondary-color);
 }
 
-.gany_ancor .d-flex{
+.gany_ancor .d-flex {
   justify-content: flex-end;
 }
-.beatuty_a{
+
+.beatuty_a {
   margin-left: 30px;
 }
+
 .gany_text_2 h4 {
-	font-size: 1.3rem;
-	font-weight: 500;
-	letter-spacing: .04em;
-	line-height: 1.6875;
-	margin-bottom: 22px;
-	color: var(--secondary-color);
+  font-size: 1.3rem;
+  font-weight: 500;
+  letter-spacing: .04em;
+  line-height: 1.6875;
+  margin-bottom: 22px;
+  color: var(--secondary-color);
 }
+
 .gany_pic {
-	width: 15%;
+  width: 15%;
+  margin: 0 auto;
 }
+
 .gany_part h6 {
-	font-size: 1.1rem;
-	padding: 5px 26px 4px;
-	color: var(--secondary-color);
-	border: 1px solid var(--secondary-color);
+  font-size: 1.1rem;
+  padding: 5px 26px 4px;
+  color: var(--secondary-color);
+  border: 1px solid var(--secondary-color);
   width: 230px;
   margin: 0 auto;
 }
 
 
 .gany_part h4 {
-	font-size: 1.1rem;
-	color: var(--secondary-color);
+  font-size: 1.1rem;
+  color: var(--secondary-color);
   margin-top: 50px;
 }
 
 .gany_part h3 {
-	font-size: 1.1rem;
-	color: var(--secondary-color);
+  font-size: 1.1rem;
+  color: var(--secondary-color);
 }
-.vajinal_part{
+
+.vajinal_part {
   margin-top: 30px;
 }
 
 
 .gany_text_2 p {
-	font-size: 1.1rem;
-	color: var(--secondary-color);
+  font-size: 1.1rem;
+  color: var(--secondary-color);
   margin-bottom: 20px;
 }
 
 
-.gany_part .flex h6{
+.gany_part .flex h6 {
   display: inline-block;
 }
-.gany_text_1 p{
-    font-size: 1.1rem;
-    padding: 5px 10px 4px;
-    color:var(--secondary-color);
-    border:1px solid var(--secondary-color)
+
+.gany_text_1 p {
+  font-size: 1.1rem;
+  padding: 5px 10px 4px;
+  color: var(--secondary-color);
+  border: 1px solid var(--secondary-color)
 }
-.gany_text_1 .d-flex{
-  gap:10px
+
+.gany_text_1 .d-flex {
+  gap: 10px
 }
+
 /* .gany_text_1 .d-flex p{
   margin-left: 10px;
 } */
-.beauty_top{
+.beauty_top {
   margin-top: 30px;
 }
+
 /*  medical treatment part end */
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* ========================== toot(treatment) page end ============================================== */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ========================== tariff  page start ============================================== */
+#tariff_part {
+  padding: 120px 0 210px;
+  background: #fff5f6;
+  ;
+}
+
+.tariff_main {
+  padding: 60px;
+  background: #fff;
+  margin-top: 40px;
+}
+
+.tariff_head h2 {
+  font-size: 2.1rem;
+  color: var(--secondary-color)
+}
+
+.tariff_head p {
+  font-size: 14px;
+  border: 1px solid var(--border1-color);
+  padding: 10px 8px;
+  color: var(--secondary-color);
+  font-family: "Yu Gothic Medium";
+
+}
+
+.tariff_head h4 {
+  font-size: 20px;
+  color: var(--secondary-color);
+  margin-top: 40px;
+  text-align: left;
+}
+
+.tarif_flex {
+  gap: 15px
+}
+
+.tariff_f {
+  margin-left: 170px;
+  margin-top: 95px;
+}
+
+.tariff_f a img {
+  max-width: 35px;
+  max-height: 35px;
+  margin-right: 12px;
+}
+
+.tariff_f a span {
+  font-size: 14px;
+  color: var(--secondary-color);
+  font-weight: 400;
+  font-family: "Cabin", sans-serif;
+  border-bottom: 1px solid var(--secondary-color);
+  max-width: 40px;
+}
+
+
+
+.tarif_box .container {
+  background: #fff;
+  padding: 34px 60px 60px;
+}
+
+
+.emoji {
+  display: flex;
+  justify-content: end;
+}
+
+#table h2 {
+  margin-bottom: 12px;
+  font-weight: 500;
+  letter-spacing: .05em;
+}
+
+.table {
+  margin: auto;
+  width: 100%;
+
+}
+
+.table,
+td {
+  border: 1px solid #e3e3e3;
+  border-collapse: collapse;
+}
+
+.table-left {
+  background: #fafafa;
+}
+
+.table-right {
+  background: #fff;
+}
+
+.table-left,
+.table-right {
+  padding: 20px;
+  width: 50%;
+}
+
+
+
+
+.tarif_box {
+  margin-top: 30px;
+}
+
+.emoji {
+  color: var(--secondary-color);
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+
+
+.tarif_box h2 {
+  color: var(--secondary-color);
+  font-size: 26px;
+}
+
+.table-left h3 {
+  color: var(--secondary-color);
+  font-size: 22px;
+}
+
+.table-left p {
+	color: var(--secondary-color);
+	font-size: 17px;
+	font-family: "Yu Gothic Medium";
+	font-weight: 500;
+}
+.table-btn a {
+  color: var(--secondary-color);
+  font-size: 15px;
+  border: 1px solid var(--border1-color);
+  padding: 5px 26px 4px;
+  margin-top: 20px;
+}
+
+.table-btn {
+  gap: 10px
+}
+
+.tariff_left_icon {
+  margin-left: 330px;
+  margin-top: 0px;
+}
+
+.tariff_left_icon a img {
+  max-width: 35px;
+  max-height: 35px;
+  margin-right: 12px;
+}
+
+.tariff_left_icon a span {
+  font-size: 14px;
+  color: var(--secondary-color);
+  font-weight: 400;
+  font-family: "Cabin", sans-serif;
+  border-bottom: 1px solid var(--secondary-color);
+  max-width: 40px;
+}
+.table-right h4 {
+	font-size: 1.2rem;
+	letter-spacing: .04em;
+	line-height: 1.6875;
+	display: flex;
+	justify-content: flex-end;
+	color: var(--secondary-color);
+	text-align: right;
+}
+
+.table td,
+.table th {
+  vertical-align: middle !important;
+}
+
+
+
+.tarif_top{
+  margin-top: 40px;
+}
+.tarif_table h4{
+  color: var(--secondary-color);
+  margin-top: 10px;
+}
+.tarif_table p{
+  margin-bottom: 20px;
+	color: var(--secondary-color);
+	font-size: 20px;
+	font-family: "Yu Gothic Medium";
+	font-weight: 500;
+}
+/* ========================== tariff  page end ============================================== */
+
+
+
+
+
+
+
+
+
+/* ========================== timing   page start ============================================== */
+#timing_part {
+	padding-top: 170px;
+	background: #fff5f6;
+}
+#notice_part {
+	margin-top: 30px;
+	padding: 30px 0;
+  background: #fff;
+}
+/* ========================== timing   page end ============================================== */
+
+
+
+
+
+
+
+
+
+/* ========================== contact page start ============================================== */
+#contact_section{
+  padding: 120px 0;
+  background: #fff5f6;;
+}
+
+
+.contact_header  {
+  text-align: center;
+  padding-top: 80px;
+}
+
+.contact_header  span {
+  font-family: "Cormorant Infant", serif;
+  font-size: 24px;
+  color: #939a9a;
+  padding-bottom: 10px;
+}
+
+.contact_header  h2 {
+  font-size: 44px;
+  color: var(--secondary-color);
+  font-weight: 500;
+  font-family: "Shippori Mincho B1", serif;
+  margin-bottom: 50px;
+}
+.contact_num ul li .florItem_num {
+  width: 50px;
+  height: 50px;
+  background: #939A9A;
+  border:1px solid #939A9A;
+  align-items: center;
+  border-radius: 50%;
+  display: flex;
+  font-size: 1.4rem;
+  justify-content: center;
+  line-height: 1.2857142857;
+  margin: 0 auto;
+  color:#fff;
+}
+.contact_num ul{
+  display: flex;
+  justify-content:space-between;
+  position: relative;
+}
+.contact_num ul .florItem_num::after {
+	position: absolute;
+	left: 120px;
+	top: 29px;
+	content: '';
+	background: #939A9A;
+	width: 38px;
+	height: 3px;
+}
+.contact_num ul .florItem_num::before {
+	position: absolute;
+	right: 120px;
+	top: 29px;
+	content: '';
+	background: #939A9A;
+	width: 38px;
+	height: 3px;
+}
+.florItem_ttl h2{
+  color: var(--secondary-color);
+  font-size: 15px;
+}
+.contact_massege h3{
+  color: var(--secondary-color);
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.contact_form{
+  padding: 75px;
+  margin-top: 30px;
+  background: #fff;;
+}
+.form_input input{
+  width: 100%;
+  padding: 20px 50px 20px 30px;
+  color:var(--secondary-color);
+  font-size: 20px;
+}
+.form_text h5{
+  color:var(--secondary-color);
+  font-size: 20px;
+}
+.form_text h5 span{
+  color:#DD6779;
+  margin-left: 12px;
+}
+.form_input_text input{
+  width: 100%;
+  height: 200px;
+}
+.contact_para h4{
+  color: var(--secondary-color);
+  font-size: 18px;
+  margin-top: 40px;
+}
+
+/* ========================== contact page end ============================================== */

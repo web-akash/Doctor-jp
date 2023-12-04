@@ -355,6 +355,48 @@ margin-right: 15px;
     text-align: center;
     margin-bottom: 30px;
   }
+
+
+
+
+
+
+
+
+
+  td{
+    display: block;
+  }
+  .table-left{
+    width: 100%;
+  } 
+  .table-right {
+    width: 100%;
+  }
+  .tariff_f {
+    margin-left: 421px;
+    margin-top: 5px;
+  }
+  .table-btn a {
+    font-size: 12px;
+    padding: 5px 20px 4px;
+  }
+  .tariff_left_icon {
+    margin-left: 403px;
+  }
+  /*tariff page responsive end */
+  
+  
+
+
+
+
+
+
+
+
+
+
 }
 @media (min-width: 576px) and (max-width: 768.98px) {
   .boxshadow {
@@ -594,6 +636,67 @@ margin-right: 15px;
     text-align: center;
     margin-bottom: 30px;
   }
+
+
+
+
+/*tariff page responsive start */
+.tariff_head h2 {
+	font-size: 2rem;
+}
+.tariff_head p {
+	font-size: 11px;
+	padding: 12px 4px;
+}
+
+.tariff_f {
+	margin-left: 285px;
+	margin-top: -10px;
+}
+
+
+.tariff_head h4 {
+	font-size: 18px;
+	margin-top: 25px;
+}
+
+
+/* 
+tr {
+  display: table-row;
+  vertical-align: inherit;
+  border-color: inherit;
+} */
+td{
+  display: block;
+}
+.table-left, .table-right {
+	width: 100%;
+}
+
+.tariff_left_icon {
+	margin-left: 220px;
+	margin-top: 20px;
+}
+
+.table-btn a {
+	font-size: 12px;
+	padding: 5px 20px 4px;
+}
+/*tariff page responsive end */
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
 @media (max-width: 575.99px) {
   .boxshadow {
@@ -870,6 +973,11 @@ margin-right: 15px;
 
 
 /* gallery part section responsive part end */
+
+
+
+
+
 /* doctorintero section responsive  part end */
 
 
@@ -878,6 +986,10 @@ margin-right: 15px;
 
 
 /* treatment page responsive start */
+
+.gany_pic {
+	width: 25%;
+}
 .gany_text_1 .d-flex {
 	flex-wrap: wrap;
 }
@@ -894,6 +1006,51 @@ margin-right: 15px;
 
 
 
+
+
+
+/*tariff page responsive start */
+.tariff_head h2 {
+	font-size: 2rem;
+}
+.tariff_head p {
+	font-size: 11px;
+	padding: 12px 4px;
+}
+
+.tariff_f {
+	margin-left: 285px;
+	margin-top: -10px;
+}
+
+
+.tariff_head h4 {
+	font-size: 18px;
+	margin-top: 25px;
+}
+
+
+/* 
+tr {
+  display: table-row;
+  vertical-align: inherit;
+  border-color: inherit;
+} */
+td{
+  display: block;
+}
+.table-left, .table-right {
+	width: 100%;
+}
+.tariff_left_icon {
+	margin-left: 255px;
+	margin-top: 15px;
+}
+.table-btn a {
+	font-size: 12px;
+	padding: 5px 20px 4px;
+}
+/*tariff page responsive end */
 
 
 
