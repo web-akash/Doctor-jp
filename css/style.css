@@ -5,6 +5,9 @@
 html{
   overflow-x: hidden !important;
 }
+.slick-track{
+  width: 100% !important;
+}
 body {
   overflow-x: hidden !important;
   font-family: Cabin, 游ゴシック体, YuGothic, Yu Gothic, 游ゴシック,
