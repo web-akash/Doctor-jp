@@ -116,8 +116,112 @@ margin-right: 15px;
 	font-size: 14px;
 }
 
+
+
+
+
+
+
+/*tarif respnsive part start */
+.tariff_head h4 {
+	font-size: 17px;
+}
+.tariff_f {
+	margin-left: 100px;
+	margin-top: 150px;
+}
+.table td{
+  display: block;
+}
+.table-left, .table-right {
+	width: 100%;
+}
+.tariff_left_icon {
+	margin-left: 640px;
+	margin-top: 15px;
+}
+.table-btn a {
+	font-size: 12px;
+	padding: 5px 20px 4px;
+}
+
+
+/*tarif respnsive part start */
+
+
+
+
+
+
+
+
+
+
+
 }
 @media (min-width: 768px) and (max-width: 991.98px) {
+  /*nav part responsive*/
+  
+.button_responsive {
+	margin-top: 300px;
+}
+.banner-main .slick-list {
+	overflow: visible;
+}
+
+.hero_text {
+	position: absolute;
+	top: 206px;
+  text-align: left;
+}
+.hero_btn a {
+	display: none;
+}
+.text_big {
+	display: none;
+}
+.text h3 {
+	display: none;
+}
+
+.text h4 {
+	display: inline;
+}
+
+.text h5 {
+	display: inline;
+}
+nav .logo img {
+	width: 130px;
+}
+
+
+.navbar {
+  top:0;
+  position: fixed;
+}
+
+
+.banner_up{
+  margin-top: 100px;
+  text-align: center;
+}
+
+.banner_up a {
+	border: 1px solid black;
+	padding: 0px 16px;
+	color: #64686a;
+	font-size: 20px;
+	font-family: "Shippori Mincho B1", serif;
+}
+.banner_up h3{
+  font-size: 20px;
+  margin: 10px 0;
+  color:var(--secondary-color)
+}
+
+
+  /*nav part responsive*/
   .boxshadow {
     display: none;
   }
@@ -364,7 +468,7 @@ margin-right: 15px;
 
 
 
-  td{
+  .table td{
     display: block;
   }
   .table-left{
@@ -399,6 +503,67 @@ margin-right: 15px;
 
 }
 @media (min-width: 576px) and (max-width: 768.98px) {
+  /*nav part responsive */
+  
+  .button_responsive {
+    margin-top: 215px;
+  }
+.banner-main .slick-list {
+	overflow: visible;
+}
+
+.hero_text {
+	position: absolute;
+	top: 206px;
+  text-align: left;
+}
+.hero_btn a {
+	display: none;
+}
+.text_big {
+	display: none;
+}
+.text h3 {
+	display: none;
+}
+
+.text h4 {
+	display: inline;
+}
+
+.text h5 {
+	display: inline;
+}
+nav .logo img {
+	width: 130px;
+}
+
+
+.navbar {
+  top:0;
+  position: fixed;
+}
+
+.banner_up{
+  margin-top: 100px;
+  text-align: center;
+}
+
+.banner_up a {
+	border: 1px solid black;
+	padding: 0px 16px;
+	color: #64686a;
+	font-size: 20px;
+	font-family: "Shippori Mincho B1", serif;
+}
+.banner_up h3{
+  font-size: 20px;
+  margin: 10px 0;
+  color:var(--secondary-color)
+}
+
+
+  /*nav part responsive */
   .boxshadow {
     display: none;
   }
@@ -667,7 +832,7 @@ tr {
   vertical-align: inherit;
   border-color: inherit;
 } */
-td{
+.table td{
   display: block;
 }
 .table-left, .table-right {
@@ -699,6 +864,67 @@ td{
 
 }
 @media (max-width: 575.99px) {
+  /*nav part responsive */
+.button_responsive {
+	margin-top: 300px;
+}
+.banner-main .slick-list {
+	overflow: visible;
+}
+
+.hero_text {
+	position: absolute;
+	top: 206px;
+  text-align: left;
+}
+.hero_btn a {
+	display: none;
+}
+.text_big {
+	display: none;
+}
+.text h3 {
+	display: none;
+}
+
+.text h4 {
+	display: inline;
+}
+
+.text h5 {
+	display: inline;
+}
+nav .logo img {
+	width: 130px;
+}
+.navbar {
+  top:0;
+  position: fixed;
+}
+/* 
+.navbar {
+	margin-top: -100px;
+} */
+
+.banner_up{
+  margin-top: 100px;
+  text-align: center;
+}
+
+.banner_up a {
+	border: 1px solid black;
+	padding: 0px 16px;
+	color: #64686a;
+	font-size: 20px;
+	font-family: "Shippori Mincho B1", serif;
+}
+.banner_up h3{
+  font-size: 20px;
+  margin: 10px 0;
+  color:var(--secondary-color)
+} 
+
+  /*nav part responsive */
   .boxshadow {
     display: none;
   }
@@ -956,7 +1182,6 @@ td{
   -o-transform: translateX(0);
 }
 
-
 /* image and text section responsive part end */
 
 
@@ -1036,7 +1261,7 @@ tr {
   vertical-align: inherit;
   border-color: inherit;
 } */
-td{
+.table td{
   display: block;
 }
 .table-left, .table-right {
@@ -1054,17 +1279,9 @@ td{
 
 
 
+/*consulation part responsive start*/
 
-
-
-
-
-
-
-
-
-
-
+/*consulation part responsive end*/
 
 
 
